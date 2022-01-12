@@ -43,7 +43,7 @@ function displayGrid(gridSize) {
         }    
         let randomColor = random_rgba();   
         grid[a].addEventListener('mouseenter', mouseEnter => 
-        grid[a].style.background = 'black');         
+        grid[a].style.background = randomColor);         
     } 
 }     
 
